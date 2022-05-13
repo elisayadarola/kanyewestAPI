@@ -4,7 +4,7 @@
     <img :src="picture" :alt="`${name.first} ${name.last}`" />
     <h3>"{{ quote }}"</h3>
     <button @click="getQuote()">
-      Click to get your own random Kanye quote!
+      Click to get your own daily random Kanye quote!
     </button>
     <!-- <div>
       <img :src="picture" :alt="`${name.first} ${name.last}`" />
