@@ -1,4 +1,7 @@
-# sideproject
+# Kanye West quote Generator using the KAAS (Kanye as a service) API - https://api.kanye.rest
+# Project built and run with Vite
+# Using Traversy Media´s youtube tutorial for random user generator
+
 
 ## Project setup
 ```
