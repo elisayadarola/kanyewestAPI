@@ -1,7 +1,7 @@
 <template>
   <div class="changes">
     <h1 class="text-3xl font-bold underline border-solid mb-20px">{{ msg }}</h1>
-    <img :src="https://www.rollingstone.com/music/music-news/kanye-west-fashion-world-reacts-white-lives-matter-shirt-1234605049/" :alt="`${name.first} ${name.last}`" />
+    <img :src=picture :alt="`${name.first} ${name.last}`" />
     <h3>"{{ quote }}"</h3>
     <button @click="getQuote()">
       👆 Click to get your random Kanye quote!👆
@@ -23,7 +23,7 @@ export default {
     return {
       quote: " I'm gonna buy Earth",
       picture:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRssZsjz642rYuvvd9Z5n4BkTl9x7q0lhOZNA&usqp=CAU",
+        "https://www.rollingstone.com/music/music-news/kanye-west-fashion-world-reacts-white-lives-matter-shirt-1234605049/",
       name: {
         title: "mr",
         first: "Kanye",
