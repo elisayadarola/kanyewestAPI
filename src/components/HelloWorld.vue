@@ -23,7 +23,7 @@ export default {
     return {
       quote: " I'm gonna buy Earth",
       picture:
-        "https://www.rollingstone.com/music/music-news/kanye-west-fashion-world-reacts-white-lives-matter-shirt-1234605049/",
+        "https://www.rollingstone.com/wp-content/uploads/2022/10/GettyImages-1423281394c.jpg?w=1581&h=1054&crop=1",
       name: {
         title: "mr",
         first: "Kanye",
